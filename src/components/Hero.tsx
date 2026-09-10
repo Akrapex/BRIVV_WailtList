@@ -19,7 +19,7 @@ export default function Hero() {
         <span className="text-xs font-semibold  tracking-wide text-stone-500">
           Akrapex · Abuja
         </span>
-        <h1 className="mt-4 text-4xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-5xl w-123.5">
+        <h1 className="mt-4 text-2xl md:text-4xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-5xl md:w-123.5">
           Everything real estate.
           One platform.
         </h1>

@@ -16,7 +16,7 @@ export default function RoleCard({
       type="button"
       onClick={() => onSelect(role.id)}
       aria-pressed={selected}
-      className={`flex h-[114px] w-[331px] items-start gap-3 rounded-xl border bg-white p-4 text-left transition-colors ${
+      className={`flex flex-wrap justify-center gap-4 max-w-5xl mx-auto w-full px-2 rounded-xl border bg-white p-4 text-left transition-colors ${
         selected
           ? "border-emerald-800 ring-1 ring-emerald-800"
           : "border-stone-200 hover:border-stone-300"
@@ -34,5 +34,6 @@ export default function RoleCard({
         </span>
       </span>
     </button>
-  );
+   );
 }
+// flex flex-wrap justify-center gap-4 max-w-5xl mx-auto w-full px-2
