@@ -6,7 +6,7 @@ export default function Navbar() {
           Akrapex
         </span>
         
-          <a href="#waitlist"
+          <a href="https://mailchi.mp/32f9f98f33a0/akraks-waitlist"
           className="rounded-full bg-emerald-900 px-5 py-2 text-sm font-normal text-white transition-colors hover:bg-emerald-800"
         >
           Join Waitlist

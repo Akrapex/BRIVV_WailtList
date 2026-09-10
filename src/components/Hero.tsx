@@ -27,7 +27,7 @@ export default function Hero() {
           Find, buy, rent, list and manage property in one place.
         </p>
         
-          <a href="#waitlist"
+          <a href="https://mailchi.mp/32f9f98f33a0/akraks-waitlist"
           className="mt-8 inline-flex items-center gap-2 rounded-full bg-emerald-900 px-6 py-3 text-sm font-semibold test-lg text-white transition-colors hover:bg-emerald-800"
         >
           Join the waitlist
