@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className="relative mx-auto flex max-w-3xl flex-col items-center px-6 py-24 text-center sm:py-32">
         <span className="text-xs font-semibold  tracking-wide text-stone-500">
-          Akrapex · Abuja
+          Akrapex · Nigeria
         </span>
         <h1 className="mt-4 text-2xl md:text-4xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-5xl md:w-123.5">
           Everything real estate.
@@ -27,12 +27,12 @@ export default function Hero() {
           Find, buy, rent, list and manage property in one place.
         </p>
         
-          <a href="https://mailchi.mp/32f9f98f33a0/akraks-waitlist"
+          <h4
           className="mt-8 inline-flex items-center gap-2 rounded-full bg-emerald-900 px-6 py-3 text-sm font-semibold test-lg text-white transition-colors hover:bg-emerald-800"
         >
           Join the waitlist
           <ArrowRight className="h-4 w-4" />
-        </a>
+        </h4>
         <p className="mt-4 text-sm text-stone-500">
           Free to join · First 1,000 members get founder pricing locked for
           life.

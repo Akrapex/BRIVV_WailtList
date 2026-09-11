@@ -24,17 +24,17 @@ export default function WaitlistBanner() {
           </div>
 
           <div className="flex gap-3">
-            <div className="rounded-xl bg-white/10 px-6 py-4 text-center">
-              <p className="text-2xl font-semibold text-amber-400 line-through decoration-2">
+            <div className="rounded-xl bg-white/10 px-8 py-4 text-center  ">
+              <p className="text-2xl font-semibold text-amber-400 decoration-2">
                 ₦0
               </p>
-              <p className="mt-1 text-xs uppercase tracking-wide text-emerald-100/70">
+              <p className="mt-1 text-[10px] uppercase tracking-wide text-emerald-100/70">
                 To join
               </p>
             </div>
-            <div className="rounded-xl bg-white/10 px- py-4 text-center ">
+            <div className="rounded-xl bg-white/10 px-1 py-4 text-center  ">
               <p className="text-2xl font-semibold text-lime-400">1,000</p>
-              <p className="mt-1 text-[10px] uppercase tracking-wide text-emerald-100/70">
+              <p className="mt-1 text-[8px] px-3 uppercase tracking-wide text-emerald-100/70">
                 Founder spots
               </p>
             </div>
