@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -20,19 +21,19 @@ export default function Hero() {
           Akrapex · Nigeria
         </span>
         <h1 className="mt-4 text-2xl md:text-4xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-5xl md:w-123.5">
-          Everything real estate.
-          One platform.
+          Everything real estate. One platform.
         </h1>
         <p className="mt-4 max-w-md text-stone-600 text-sm font-normal">
           Find, buy, rent, list and manage property in one place.
         </p>
-        
-          <h4
+
+        <Link
+          href="/sustainable-living"
           className="mt-8 inline-flex items-center gap-2 rounded-full bg-emerald-900 px-6 py-3 text-sm font-semibold test-lg text-white transition-colors hover:bg-emerald-800"
         >
           Join the waitlist
           <ArrowRight className="h-4 w-4" />
-        </h4>
+        </Link>
         <p className="mt-4 text-sm text-stone-500">
           Free to join · First 1,000 members get founder pricing locked for
           life.

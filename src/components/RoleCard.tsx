@@ -16,7 +16,7 @@ export default function RoleCard({
       type="button"
       onClick={() => onSelect(role.id)}
       aria-pressed={selected}
-      className={`flex items-start gap-3 w-full max-w-[331px] rounded-xl border bg-white p-4 text-left transition-colors ${
+      className={`flex items-start gap-3 w-full max-w-82.75 rounded-xl border bg-white p-4 text-left transition-colors ${
         selected
           ? "border-emerald-800 ring-1 ring-emerald-800"
           : "border-stone-200 hover:border-stone-300"
