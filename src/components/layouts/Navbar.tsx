@@ -5,12 +5,19 @@ export default function Navbar() {
   return (
     <header className="border-b border-stone-100 bg-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/">
+        <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/logo.jpeg"
+            src="/images/logo.png"
             alt="A verified property listing"
-            width={40}
-            height={30}
+            width={30}
+            height={20}
+          />
+          <Image
+            src="/images/Akrapex.svg"
+            alt="A verified property listing"
+            width={60}
+            height={80}
+            className="mt-2"
           />
         </Link>
         <Link
