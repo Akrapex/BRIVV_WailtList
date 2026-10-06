@@ -7,10 +7,10 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/">
           <Image
-            src="/images/Akrapex.svg"
+            src="/logo.jpeg"
             alt="A verified property listing"
-            width={100}
-            height={80}
+            width={40}
+            height={30}
           />
         </Link>
         <Link

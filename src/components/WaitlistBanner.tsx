@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function WaitlistBanner() {
   return (
@@ -14,13 +15,13 @@ export default function WaitlistBanner() {
               life.
             </p>
 
-            <a
-              href="#"
+            <Link
+              href="/sustainable-living"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-emerald-950 transition-colors hover:bg-emerald-50"
             >
               Claim my spot
               <ArrowRight className="h-4 w-4" />
-            </a>
+            </Link>
           </div>
 
           <div className="flex gap-3">

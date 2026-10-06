@@ -11,7 +11,7 @@ export default function Hero() {
           alt="backgroung image"
           fill
           priority
-          className="object-cover bg-no-repeat"
+          className="obect-cover w-full h-full"
         />
         <div className="absolute inset-0 bg-white/80" />
       </div>

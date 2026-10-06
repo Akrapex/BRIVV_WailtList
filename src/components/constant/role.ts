@@ -11,31 +11,31 @@ export const ROLES: Role[] = [
   {
     id: "developer",
     title: "Developer",
-    description: "Build. List. Sell.",
+    description: "Builds, lists and sells properties and projects.",
     icon: HardHat,
   },
   {
     id: "landlord",
     title: "Landlord / Owner",
-    description: "List. Lease. Earn.",
+    description: "Lists, leases and manages properties.",
     icon: Home,
   },
   {
     id: "property-manager",
     title: "Property Manager",
-    description: "Manage your portfolio.",
+    description: "Manages properties, tenants and day-to-day operations.",
     icon: Building2,
   },
   {
     id: "agent",
     title: "Agent / Broker",
-    description: "Connect. Close. Grow.",
+    description: "Connects people with properties and helps close deals.",
     icon: Handshake,
   },
   {
     id: "renter",
     title: "Renter / Buyer",
-    description: "Find your next home.",
+    description: "Finds properties and connects with the right professionals.",
     icon: KeyRound,
   },
 ];
