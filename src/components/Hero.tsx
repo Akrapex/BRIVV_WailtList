@@ -5,14 +5,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0">
-        <Image
-          src="/images/heroBackground.jpeg"
-          alt="backgroung image"
-          fill
-          priority
-          className="obect-cover w-full h-full"
-        />
+      <div className="absolute inset-0 bg-[url('/images/heroBackground.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-white/80" />
       </div>
 
