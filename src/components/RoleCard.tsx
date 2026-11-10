@@ -16,23 +16,22 @@ export default function RoleCard({
       type="button"
       onClick={() => onSelect(role.id)}
       aria-pressed={selected}
-      className={`flex items-start gap-3 w-full max-w-82.75 rounded-xl border bg-white p-4 text-left transition-colors ${
+      className={`flex flex-col w-full h-full rounded-xl border bg-white p-5 text-left transition-all duration-200 cursor-pointer ${
         selected
-          ? "border-emerald-800 ring-1 ring-emerald-800"
-          : "border-stone-200 hover:border-stone-300"
+          ? "border-[#1B4D3E] ring-1 ring-[#1B4D3E] bg-[#F5FAF7] shadow-xs"
+          : "border-stone-200/90 hover:border-emerald-700/60 hover:shadow-xs"
       }`}
     >
-      <Icon className="mt-1 h-5 w-5 shrink-0 text-emerald-800" />
-
-      <span>
-        <span className="block text-2xl font-semibold text-stone-900">
+      <div className="flex items-center gap-2.5">
+        <Icon className="h-4.5 w-4.5 shrink-0 text-[#1B4D3E]" />
+        <span className="text-sm sm:text-[15px] font-semibold text-stone-900">
           {role.title}
         </span>
+      </div>
 
-        <span className="mt-0.5 block text-xs text-stone-500">
-          {role.description}
-        </span>
-      </span>
+      <p className="mt-2 text-xs text-stone-500 leading-relaxed font-normal">
+        {role.description}
+      </p>
     </button>
   );
 }
