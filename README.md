@@ -29,6 +29,14 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Webinar page
+
+The Akrapex webinar landing page lives at `/webinar`. It is a self-contained static page (plain HTML, CSS and JavaScript with GSAP and Lenis for animation) in `public/webinar/`, served through one rewrite in `next.config.ts`. It does not use any code in `src/`, and the home page and the other routes are unchanged.
+
+Its Register buttons go to `/sustainable-living`. Photos are from Pexels (free to use); the skyline is https://www.pexels.com/photo/40161580/ , the home https://www.pexels.com/photo/4933643/ , the courtyard https://www.pexels.com/photo/31656168/ and the solar roof https://www.pexels.com/photo/8457868/ .
+
+**After the event**, either delete `public/webinar/` and the `rewrites` block in `next.config.ts`, or replace the rewrite with a redirect from `/webinar` to `/` so old shared links land on the normal waitlist. Vercel's Instant Rollback can also restore a previous deployment at any time.
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
