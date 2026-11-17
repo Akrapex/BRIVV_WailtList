@@ -9,7 +9,10 @@ const nextConfig: NextConfig = {
   // After the event, either delete public/webinar and this block, or swap it
   // for a redirect: { source: "/webinar", destination: "/", permanent: false }
   async rewrites() {
-    return [{ source: "/webinar", destination: "/webinar/index.html" }];
+    return [
+      { source: "/webinar", destination: "/webinar/index.html" },
+      { source: "/webinar/register", destination: "/webinar/register/index.html" },
+    ];
   },
 };
 
