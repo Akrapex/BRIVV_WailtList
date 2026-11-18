@@ -1,10 +1,10 @@
 /* Webinar registration page: layout around the MailerLite form */
 .reg-page { background: var(--forest); }
-.reg { position: relative; overflow: hidden; display: grid; place-items: start center; min-height: 100vh; padding: 132px clamp(16px, 5vw, 40px) 80px; background: linear-gradient(180deg, #0F2E29 0%, #123730 100%); }
+.reg { grid-template-columns: minmax(0, 1fr); position: relative; overflow: hidden; display: grid; place-items: start center; min-height: 100vh; padding: 132px clamp(16px, 5vw, 40px) 80px; background: linear-gradient(180deg, #0F2E29 0%, #123730 100%); }
 .reg__glow { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; }
 .reg__glow--a { width: 520px; height: 520px; top: -160px; right: -120px; background: rgba(255, 215, 83, .16); }
 .reg__glow--b { width: 560px; height: 560px; bottom: -220px; left: -180px; background: rgba(42, 107, 83, .5); }
-.reg__card { position: relative; z-index: 1; width: 100%; max-width: 560px; background: #fff; border-radius: 28px; padding: clamp(24px, 5vw, 44px); box-shadow: 0 40px 90px -30px rgba(0, 0, 0, .55), 0 0 0 1px rgba(255, 255, 255, .06); animation: reg-in .9s var(--ease) both; }
+.reg__card { min-width: 0; position: relative; z-index: 1; width: 100%; max-width: 560px; background: #fff; border-radius: 28px; padding: clamp(24px, 5vw, 44px); box-shadow: 0 40px 90px -30px rgba(0, 0, 0, .55), 0 0 0 1px rgba(255, 255, 255, .06); animation: reg-in .9s var(--ease) both; }
 @keyframes reg-in { from { opacity: 0; transform: translateY(28px) scale(.985); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .reg__card { animation: none; } }
 @media (max-width: 760px) { .reg { padding-top: 112px; } .reg__card { border-radius: 22px; } }

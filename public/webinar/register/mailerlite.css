@@ -100,3 +100,6 @@
 #mlb2-48677902 .ml-form-checkboxRow .label-description p { font-size: 13.5px; }
 #mlb2-48677902 .ml-form-embedSubmit button { height: 50px; border-radius: 12px; font-size: 15.5px; box-shadow: none; }
 #mlb2-48677902 .ml-form-embedSubmit button.primary:hover { box-shadow: 0 14px 30px -14px rgba(42, 107, 83, .8); }
+
+/* Very small phones: shrink the reCAPTCHA box so the card never gets wider than the screen */
+@media (max-width: 340px) { #mlb2-48677902 .g-recaptcha { transform: scale(.78); } }
